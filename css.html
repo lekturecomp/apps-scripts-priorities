@@ -1,0 +1,71 @@
+<style>
+  html,
+  body,
+  button {
+    height: 100%;
+    font-family: Consolas, monaco, monospace;
+  }
+
+  .container {
+    margin: 20px auto 0;
+    max-width: 1500px;
+    word-wrap: break-word
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+
+  ul {
+    margin: 0;
+    padding: 0;
+  }
+
+  li {
+    margin: 5px 0;
+    padding: 10px 20px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 3px;
+    background: #136a8a;
+    background: -webkit-linear-gradient(to right, #267871, #136a8a);
+    background: linear-gradient(to right, #267871, #136a8a);
+    color: #fff;
+    list-style: none;
+  }
+
+  li.drag-sort-active {
+    background: transparent;
+    color: transparent;
+    border: 1px solid #4ca1af;
+  }
+
+  button {
+    margin: 5px 0;
+    padding: 0 20px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 16px;
+    border: none;
+    border-radius: 10px;
+    background: #4CAF50;
+    box-shadow: 7px 6px 28px 1px rgba(0, 0, 0, 0.24);
+    //background: -webkit-linear-gradient(to right, #267871, #136a8a);
+    //background: linear-gradient(to right, #267871, #136a8a);
+    color: #fff;
+    cursor: pointer;
+  }
+
+  button:hover{
+    background: #3d8c40;
+  }
+
+  button:active{
+    transform: scale(0.95);
+    box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
+  }
+
+  .text-center {
+    text-align: center;
+  }
+</style>

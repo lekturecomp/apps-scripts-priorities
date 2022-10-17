@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+
+
+<head>
+  <base target="_top">
+  <?!= include('css'); ?>
+</head>
+
+<body>
+  <div class="container">
+    <h3>Arraste e Priorize as Ações :</h3>
+    <hr>
+    <ul class="drag-sort-enable" id='projects-list'>
+      <?!= getProjectsList(); ?>
+    </ul>
+  </div>
+  <div class="text-center">
+    <button type="button" onclick= 'save()'>Salvar</button>
+  </div>
+
+  <?!= include('draganddrop'); ?>
+</body>
+
+</html>
